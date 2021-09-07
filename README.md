@@ -44,6 +44,22 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Inyección de servicios manualmente
 
 
+*Protección de rutas*
+
+* Rutas privadas
+  
+* Rutas públicas
+
+* Servicio de autenticación
+
+* Guards
+
+* CanActivate
+
+* Can Load
+
+* Mantener la sesión del usuario
+
 
 
 
