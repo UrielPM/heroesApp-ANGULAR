@@ -28,6 +28,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * Angular Flex y Flexbox
 
+*CRUD*
+
+- Create
+- Read
+- Update
+- Delete
+
+*Pipes puros e impuros*
+
+*Snacks*
+
+*Dialogs*
+
+*Inyección de servicios manualmente*
 
 
 
