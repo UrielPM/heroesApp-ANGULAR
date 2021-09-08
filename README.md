@@ -60,6 +60,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * Mantener la sesión del usuario
 
+* EFECTO GLASSMORPHISM EN CSS ( CRISTAL TRASLÚCIDO)
 
 
 
