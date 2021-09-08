@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ErrorPageComponent } from './shared/error-page/error-page.component';
+//import { ErrorPageComponent } from './shared/error-page/error-page.component';
 import { AuthGuard } from './auth/guards/auth.guard';
+import { LoginComponent } from './auth/pages/login/login.component';
 
 const routes: Routes = [
   //para navegar a los modulos de las rutas hijas
@@ -20,13 +21,13 @@ const routes: Routes = [
   },
 
   {
-    path: '404', 
-    component: ErrorPageComponent
+    path: 'login', 
+    component: LoginComponent
   }, 
   {
     path: '**',
     //component: ErrorPageComponent
-    redirectTo: '404'
+    redirectTo: 'login'
   }
 ]
 
